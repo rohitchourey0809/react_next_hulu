@@ -12,19 +12,19 @@ const Header = () => {
           <HeaderItem title="HOME" Icon={HomeIcon} />
         </div>
         <div>
-          <HeaderItem title="HOME" Icon={BadgeCheckIcon} />
+          <HeaderItem title="VERIFIED" Icon={BadgeCheckIcon} />
         </div>
         <div>
-          <HeaderItem title="HOME" Icon={CollectionIcon} />
+          <HeaderItem title="COLLECTIONS" Icon={CollectionIcon} />
         </div>
         <div>
-          <HeaderItem title="HOME" Icon={SearchIcon} />
+          <HeaderItem title="SEARCH" Icon={SearchIcon} />
         </div>
         <div>
-          <HeaderItem title="HOME" Icon={LightningBoltIcon} />
+          <HeaderItem title="TRENDING" Icon={LightningBoltIcon} />
         </div>
         <div>
-          <HeaderItem title="HOME" Icon={UserIcon} />
+          <HeaderItem title="ACCOUNT" Icon={UserIcon} />
         </div>
        <div>
        <Image
