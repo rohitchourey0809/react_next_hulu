@@ -21,19 +21,21 @@ const Nav = () => {
   console.log("Moviedata", Moviedata);
 
   return (
-    <nav>
-      <div className="">
+    <>
+      <div style={{ display: "flex",alignItems:"center",gap:"20px",flexWrap:"wrap" ,margin:"25px",textAlign:"center"}}>
         {Moviedata.map((e, index) => (
           <>
-            <img src={e.Poster} alt={e.Title}/>
-            <div>{e.Title}</div>
-            <div>{e.Year}</div>
-            <div>{e.Type}</div>
+            <div>
+              {" "}
+              <img src={e.Poster} alt={e.Title} />
+              <p>{e.Title}</p>
+              <p>{e.Year}</p>
+              <p>{e.Type}</p>
+            </div>
           </>
         ))}
-
       </div>
-    </nav>
+    </>
   );
 };
 
